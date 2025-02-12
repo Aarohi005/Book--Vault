@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Rekalgera;
+    src: url('Rekalgera, retro font 9.jpg');
+}
+body{
+    background-image: linear-gradient(rgba(237, 237, 151, 0.362)20%,rgba(218, 164, 164, 0.378)40%,rgba(178, 148, 188, 0.45520%)), url('img1.png');
+    font-family: Arial, sans-serif;
+}
+h1{
+    
+    text-transform: uppercase;
+    font-size: 180px;
+    background:  linear-gradient(to left,#5e4658,#a77979,#ce6197,#534b4b, #714a67);
+            -webkit-background-clip: text;
+            color: transparent;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+h1>div{
+    font-size: 140px;
+    background: linear-gradient(to left,#574653,#f4adad,#ffe1f0,#949090, #714a67);
+            -webkit-background-clip: text;
+            color: transparent;
+}
+button{
+    background-color: #4CAF50;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: blanchedalmond;
+    margin: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.container button:hover{
+    background-color: #225f25;
+    transform:scale(1.1);
+}
+.center{
+    height:25vh;
+    background-color: transparent;
+    opacity: 0.6;
+    clip-path: circle(50%);
+}
+.center:hover{
+    opacity: 0.9;
+}
