@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: #12323d; 
+    position:fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.267); 
+}
+
+.logo{
+    font-size: 2em;
+    color: rgb(104, 219, 219);
+    font-weight: 1000;
+    padding: 20px 20px 10px 50px;
+    text-shadow: 1.5px 1.5px 3px rgb(70, 108, 190);
+}
+header img{
+    background-color: transparent; 
+    opacity: 0.5; 
+    position:absolute;
+    clip-path: circle();
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    color: rgb(205, 251, 251);
+    font-size: 1.2em;
+    text-shadow: 1.5px 1.5px 3px rgb(70, 108, 190);
+    font-weight: 800;
+}
+.st{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:10px;
+    margin-top: 6em;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: aliceblue;
+    padding: 10px 15px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    background-color: #e7f2fd86;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.con {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 10px;
+    height: 40vh;
+}
+
+.mk {
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+.image {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    width: auto;
+    height: 60%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.description {
+    width: 50%;
+    padding: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
+.name {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #2980b9;
+    margin-bottom: 8px;
+}
+
+.author {
+    font-size: 1em;
+    color: #34495e;
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+.dis {
+    font-size: 0.95em;
+    color: #2c3e50;
+    line-height: 1.6;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="auth.js"></script>
+    <script src="home.js"></script>
+</head>
+<body onload="checkAuth()">
+    <section>
+        <header>
+            <div class="logo">
+                Book Vault
+            </div>
+            <div>
+                <img src="img2.jpg" alt="logo" height="130px">
+            </div>
+           <div>
+            <nav>
+                <a href="#"><ul class="li">Home</ul></a>
+                <a href="#"><ul class="li">About Us</ul></a>
+                <a href="#"><ul class="li">Contact us</ul></a>
+                <a href="#"><ul class="li">Info</ul></a>
+                <a href="#" onclick="logout()"><ul class="li">Logout</ul></a>        
+            </nav>
+           </div>   
+        </header>
+        <body>
+            <p>Building a vibrant community for Readers!!</p>
+            <div class="tx">Where to next?</div>
+            <div class="container-wrapper">
+                <button onclick="scrollContainer('left')">◀</button>
+                <div class="container">
+                    <div class="con">
+                        <a href="#">
+                            <img src="romcom.png" alt="romcom">
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="#">
+                            <img src="thriller.png" alt="thriller">
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="mystery.html">
+                            <img src="mystery.png" alt="mystery">
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="">
+                            <img src="horror.png" alt="horror">
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="">
+                            <img src="fiction.png" alt="fiction">
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="comedy.html">
+                            <img src="comedy.png" alt="comedy">
+                        </a>
+                    </div>
+                </div>
+                <button onclick="scrollContainer('right')">▶</button>
+            </div>
+            <div class="tx">My List</div>
+            <div class="container-wrapper">
+                <button onclick="scrollContainer('left')">◀</button>
+                <div class="container">
+                    <div class="con">
+                        <a href="#">
+                            <img src="romcom.png" alt="romcom">
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="#">
+                            <img src="thriller.png" alt="thriller">
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="">
+                            <img src="mystery.png" alt="mystery">
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="">
+                            <img src="horror.png" alt="horror">
+                        </a>
+                    </div>
+                </div>
+                <button onclick="scrollContainer('right')">▶</button>
+            </div>
+        </body>
+        <footer>
+            <p>&copy; BookVault</p>
+        </footer>
+    </section>
+</body>
+</html>
